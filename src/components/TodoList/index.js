@@ -6,6 +6,7 @@ import { device } from '../../styles/device';
 const TodoListWrapper = styled.div`
     padding: 80px 20px 20px;
     width: calc(100vw - 200px);
+    max-width: 800px;
 
     @media ${device.tablet} { 
         width: calc(100% - 80px);
